@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* header section */
+.header_container{
+    font-family: sans-serif;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    background: url(images/donation2.jpg);
+    height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 190px;
+    position: relative;
+    z-index: 2;
+}
+.header_container::before{
+   content: "";
+   width: 100%;
+   height: 100%;
+   background: black;
+   top:0;
+   left: 0;
+   position: absolute;
+   z-index: -1;
+   opacity: .7;
+   
+}
+
+.header_container h1{
+    font-size: 70px;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 20px;
+    max-width: 989px;
+    text-align: center;
+    margin: auto;
+}
+.header_container h3{
+    font-size: 24px;
+    color: #fff;
+    letter-spacing: 1px;
+    width: 56%;
+    margin: auto;
+    margin-top: 10px;
+    word-spacing: 4px;
+    line-height: 39px;
+}
+button{
+    background: #fe4584d6;
+    color: #fff;
+    height: 63px;
+    width: 200px;
+    margin-top: 47px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+/* main section */
+
+.main_container{width: 100%;height: auto;text-align: center;padding-top: 110px;}
+.main_container h1{
+font-size: 50px;
+margin-bottom: 20px;
+}
+.main_container p{font-size: 22px;max-width: 38%;margin: auto;line-height: 30px;color: #979797;}
+.main_container ul{display: flex;align-content: end;flex-wrap: wrap;justify-content: center;margin-top: 50px;margin-bottom: 25px;}
+.main_container ul li:hover{
+    color: red;
+    background: #ff45005e;
+    border: 2px solid red;
+}
+.main_container ul li{
+list-style: none;
+font-size: 40px;
+height: 88px;
+width: 140px;
+padding-top: 34px;
+background: #f8f2f2a3;
+margin-right: 40px;
+margin-bottom: 30px;
+border: 1px solid transparent;
+border-radius: 8px;
+}
+.main_container h2{color: #979797;margin-bottom: 17px;font-weight: 100;}
+hr{
+    width: 1000px;
+    margin: auto;
+}
+
+/* Planning Section */
+#donate_plan_section{
+     width: 100%;
+     height: auto;
+     margin-top: 100px;
+}
+.planning_part{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin: 3%;
+}
+.food_planning, .shelter_planning, .education_planning{
+    height: 400px;
+    width: 400px;
+    background: #e91e631a;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    text-align: center;
+    padding: 15px;
+    margin-right: 20px;
+}
+.food_planning img, .shelter_planning img, .education_planning img{
+    margin-top: 43px;
+    margin-right: 74%;
+}
+.food_planning h2, .shelter_planning h2, .education_planning h2{
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    margin-right: 39%;
+    margin-top: 8px;
+}
+.food_planning p, .shelter_planning p, .education_planning p{
+    max-width: 100%;
+}
+
+/* living section */
+
+#living_sec_container{
+    display: flex;
+    margin: 150px 47px 0px;
+    justify-content: space-between;
+}
+.living_info p{
+    max-width: 90%;
+    margin-top: 50px;
+}
+.living_info{
+    height: auto;
+    width: 40%;
+}
+.taking_info{
+    height: auto;
+    width: 55%;
+}
+.taking_info img{
+    height: 500px;
+    width: 75%;
+}
+/* Servive Section */
+
+.servive_section{
+    display: flex;
+    margin: 122px 100px 0px;
+    justify-content: space-between;
+}
+.servive_content p{
+    max-width: 72%;
+    margin-top: 50px;
+}
+.servive_content{
+    height: auto;
+    width: 40%;
+}
+.servive_content{
+    height: auto;
+    width: 60%;
+}
+.servive_img img{
+    height: 500px;
+    width: 75%;
+}
+
+/* Update Section */
+.update{
+    height:auto;
+    width: 100%;
+    margin-top: 50px;
+}
+.email_section{
+    background: #f39e033b;
+    max-width: 60%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 19%;
+    padding: 20px;
+}
+.email_section input{
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    margin-top: 26px;
+    margin-bottom: 32px;
+    height: 50px;
+}
+.email_section button{
+    background: #fe4584d6;
+    color: #fff;
+    height: 63px;
+    width: 200px;
+    margin-top: 19px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    /* margin-bottom: -4px; */
+}
+
+/* final section */
+.final_section{
+    width: 100%;
+    height: 200px;
+    background: black;
+    text-align: center;
+    padding: 0px;
+}
+.final_section h2{
+    color: orange;
+    font-style: italic;
+    margin-top: 138px;
+}
+.final_section p{
+    color: #c3c3c3;
+    margin-top: -11px;
+}
+.final_info{
+    max-width: 100%;
+}
